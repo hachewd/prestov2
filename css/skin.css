@@ -56,8 +56,6 @@ figure[role="logo"] img{
 	margin:80px auto 0 auto;
 	width:80%;
 }
-
-
 nav[role="first_menu"]{
 	background-color:#2c210b;
 	text-align: right;
@@ -238,7 +236,6 @@ ul.bjqs-controls.v-centered li a:hover{
 	background:#ff0000;
 	color:#fff;
 }
-
 ol.bjqs-markers li a{
 	padding:5px 10px;
 	background:#000;
@@ -269,7 +266,6 @@ p.bjqs-caption{
 .bggradbt{
 	background: url(../images/gradient_container.jpg) repeat-x 0 0;
 	height: 180px;
-	
 	width: 100%;
 	z-index: -5;
 }
@@ -319,6 +315,7 @@ p.bjqs-caption{
 	}
 	.ingresar{
 		right: 10px;
+		top:10px;
 	}
 	nav[role="second_menu"]{
 		display: none;
@@ -367,7 +364,6 @@ p.bjqs-caption{
 		padding: 0;
 		margin:  0;
 	}
-	
 	nav[role="first_menu"] li a, nav[role="first_menu"] ul.encuentranos{
 		font-size: 1.1em;
 	}
@@ -379,6 +375,7 @@ p.bjqs-caption{
 	}
 	.ingresar{
 		right: 10px;
+		top:10px;
 	}
 	nav[role="first_menu"] li ul.encuentranos{
 		color: #fff;
@@ -442,6 +439,7 @@ p.bjqs-caption{
 	}
 	.ingresar{
 		right: 30px;
+		top:10px;
 	}
 	nav[role="first_menu"] li ul.encuentranos{
 		color: #fff;
@@ -507,6 +505,7 @@ p.bjqs-caption{
 	}
 	.ingresar{
 		right: 82px;
+		top:10px;
 	}
 	#smallmenu{
 		display: none;

@@ -20,9 +20,7 @@
 	font-weight: bold;
 }
 .cols fieldset{
-	color:#4d4d4d;
 	display: block;
-
 	border: 0;
 }
 .cols label{
@@ -291,8 +289,8 @@ h3.subtitle strong{
 	color:#333;
 }
 .selec_producto{
-	padding-top: 50px;
-	position: relative;
+	padding-top: 60px;
+	/*position: relative;*/
 }
 
 .selec_producto .categories li {
@@ -319,9 +317,11 @@ h3.subtitle strong{
 }
 .estado{
 	background: url(../images/carrito_ico.png) no-repeat;
+	font-size: 18px;
 	display: inline-block;
 	height: 32px;
 	overflow: hidden;
+	text-align: center;
 	vertical-align: middle;
 	width: 50px;
 }
@@ -335,12 +335,8 @@ h3.subtitle strong{
 }
 .cart_detail{
 	position: absolute;
-	right: 0px;
-	top: 50px;
 	width: 290px;
-	z-index: 110;
 }
-
 /*pedido*/
 .mostrarUsuario{
 	position: absolute;
@@ -355,8 +351,12 @@ h3.subtitle strong{
 	text-decoration: none;
 	transition: all 0.5s ease-out;
 }
+.img_producto_selec img{
+	width:100%;
+}
 /*columna detalle carrito*/
 .detail{
+	font-size: 14px;
 	margin-bottom: 10px;
 }
 .cartSummary{
@@ -485,6 +485,7 @@ section[role="registro"] article.datos_usuario a, section[role="registro"]  arti
 .direccion{
 	display: block;
 	font-family: 'Roboto Condensed', sans-serif;
+	height:20px;
 	overflow: hidden;
 }
 .direccion legend a{
@@ -508,7 +509,6 @@ section[role="registro"] article.datos_usuario a, section[role="registro"]  arti
 	transition: all 0.5s;
 	width: 112px;
 }
-
 .direccion label{
 	padding: 8px 0;
 }
@@ -558,9 +558,6 @@ section[role="registro"] article.nombreusuario strong{
 }
 
 /*menu productos*/
-.menuproductos{
-	width: 65%;
-}
 .slid_prod{
 	margin-bottom: 50px;
 	width: 100%;
@@ -583,7 +580,7 @@ section[role="registro"] article.nombreusuario strong{
 	text-decoration: none;
 	transition: all 0.5s ease-out;
 	/*-webkit-filter: grayscale(50%);*/
-}c
+}
 .menu li a:hover{
 	color:#ff0000;
 	/*-webkit-filter: grayscale(0%);*/
@@ -624,7 +621,7 @@ section[role="registro"] article.nombreusuario strong{
 .active{
 	opacity: 1;
 	visibility: visible;
-	z-index: 30;
+	z-index: 10;
 }
 .inactive{
 	opacity: 0;
@@ -759,7 +756,6 @@ aside.produc_selec {
 	font-size: 38px;
 	font-weight: normal;
 }
-
 div.pedidopara{
 	color: #ff0000;
 	float: right;
@@ -776,7 +772,6 @@ div.pedidopara input{
 	padding: 4px 10px;
 }
 /**/
-
 /*completar pedido*/
 .detalle_carrito, .totales_pago{
 	display: inline-block;
@@ -786,7 +781,6 @@ div.pedidopara input{
 	margin-right: 20px;
 	margin-bottom: 30px;
 }
-
 .detalle_carrito article{
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 10px;
@@ -795,7 +789,6 @@ div.pedidopara input{
 .detalle_carrito article header{
 	margin-bottom: 10px;
 }
-
 .detalle_carrito .borrar{
 	display: inline-block;
 	background: url(../images/borrar_btn.png) no-repeat;
@@ -816,11 +809,10 @@ div.pedidopara input{
 	margin: 0 5px 0 5px;
 	width: 65%;
 }
-
 .detalle_carrito .total{
 	color: #2c1b03;
 	display: inline-block;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 	margin: 0px 10px 0 5px;
 	text-align: right;
@@ -838,7 +830,7 @@ div.pedidopara input{
 	width: 50%;
 }
 .detalle_carrito .valor{
-	font-size: 16px;
+	font-size: 14px;
 	text-align: right;
 	width: 20%;
 }
@@ -865,10 +857,11 @@ div.pedidopara input{
 	color: #ff0000;
 	background: transparent;
 	display: inline-block;
-	width: 85px;
+	width: 120px;
 }
 .pago{
-	text-align: center;
+	text-align: right;
+	overflow: hidden;
 }
 .pago h4{
 	color: #ff0000;
@@ -883,6 +876,17 @@ div.pedidopara input{
 }
 .pago fieldset{
 	border: 0;
+	float: right;
+	text-align: right;
+	width: 220px;
+}
+.pago fieldset div{
+	display:inline-block;
+}
+.pago fieldset div:nth-last-of-type(2), .pago fieldset div:nth-last-of-type(1){
+	/*float:right;*/
+	/*display: block;*/
+	margin-right:15px;
 }
 .pago fieldset label{
 	color: #57453e;
@@ -902,7 +906,6 @@ div.pedidopara input{
 	margin-top: 5px;
 	text-align: right;
 }
-
 /*gracias por pedido*/
 .gracias_pedido{
 	color: #57453e;
@@ -951,16 +954,73 @@ div.pedidopara input{
 	}
 	.mostrarUsuario{
 		right: 20px;
-		/*bottom: 0px;*/
+		top: 15px;
+	}
+	.menucat{
+		display:block;
+		margin: 2% auto;
+		width:80%;
+	}
+	.menuproductos{
+		display: block;
+		margin: 30px auto 25px auto;
+		width: 90%;
+	}
+	h3.subtitle{
+		padding-left:25px;
+		padding-top: 20px;
 	}
 	.categories li{
-		display: inline-block;
+		display: block;
 	}
 	.categories{
 		margin-top: 20px;
 	}
+	.produc_selec h4{
+		font-size: 1.4em;
+		margin-top: 5%;
+	}
+	.img_producto_selec{
+		width:40%;
+	}
+	.producto{
+		display: block;
+		margin: 25px auto;
+		width: 90%;
+	}
+	.selec_producto .categories li {
+		display:inline-block;
+		margin: 5px;
+	}
+	.cart_detail{
+		right: 0px;
+		top: 65px;
+		z-index: 10;
+	}
+	aside.produc_selec {
+		margin-bottom:  50px;
+	}
 	.show_detail{
-   	 min-height: 460px;
+   	 min-height: 480px;
+	}
+	.cols{
+		display: block;
+		margin: 10px auto 25px auto;
+		min-height: 350px;
+		/*padding: 15px 2% 0 2%;*/
+		width:100%;
+	}
+	.cols fieldset{
+		border-bottom: 1px solid #f00;
+		height: 350px;
+	}
+	.show_detail article figure{
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+	}
+	.show_detail article figure img{
+		width: 100%;
 	}
 	.cols{
 		display: block;
@@ -980,6 +1040,16 @@ div.pedidopara input{
 		display: block;
 		margin: 25px auto;
 		width: 95%;
+	}
+	.detalle_carrito{
+		display:block;
+		margin:0 auto;
+		width: 90%;
+	}
+	.totales_pago{
+		display:block;
+		margin:0 auto;
+		width: 90%;
 	}
 	.agregar_prod ul.horizontal li a{
 		font-size: 16px;
@@ -1006,6 +1076,27 @@ div.pedidopara input{
 		-webkit-column-count:2; /* Chrome, Safari, Opera */
 		-moz-column-count:2; /* Firefox */
 		column-count:2;
+	}
+	.pago{
+		text-align: center;
+	}
+	.pago fieldset{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 50%;
+	}
+	.pago fieldset{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 50%;
+	}
+	.tt_pagar, .dom_inclu{
+		margin-right: 20px;
+	}
+	.tt_pagar{
+		border-top: 1px solid #ff0000;
 	}
 }
 /* iPads (portrait and landscape) ----------- */
@@ -1035,30 +1126,51 @@ div.pedidopara input{
 	.qdesea_cat{
 		width: 90%;
 		margin:0 auto 25px auto;
-		padding-top: 100px;
+		padding-top:60px;
 	}
 	.mostrarUsuario{
 		right: 20px;
+		top: 15px;
 	}
 	.menucat{
 		width: 40%;
+	}
+	.menuproductos{
+		width: 75%;
 	}
 	.selec_producto .categories{
 		margin-left:25px;
 		margin-right: 30px;
 	}
+	.producto{
+		margin-right: 2%;
+		margin-left:0;
+		margin-bottom: 50px;
+		width:70%;
+	}
+	.cart_detail{
+		right: 0px;
+		top: 65px;
+		z-index: 50;
+	}
+	.producto h4{
+		font-size: 1.4em;
+	}
+	.img_producto_selec{
+		width: 45%;
+	}
 	.show_detail{
-   	 min-height: 460px;
+   	 min-height:280px;
 	}
 	.show_detail article aside{
-		display: block;
+		display: inline-block;
 		margin:0 auto;
-		width:80%;
+		width:55%;
 	}
 	.show_detail article figure{
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
-		width: 60%;
+		width: 40%;
 	}
 	.show_detail article figure img{
 		width: 100%;
@@ -1077,7 +1189,13 @@ div.pedidopara input{
 		height: 350px;
 	}
 	.agregar_prod{
-		width: 70%;
+		width: 75%;
+	}
+	.detalle_carrito{
+		width: 35%;
+	}
+	.totales_pago{
+		width: 30%;
 	}
 	.agregar_prod ul.horizontal li a{
 		font-size: 16px;
@@ -1112,17 +1230,24 @@ div.pedidopara input{
 	.qdesea_cat{
 		width: 80%;
 		margin:0 auto 25px auto;
-		padding-top: 100px;
+		padding-top: 60px;
 	}
 	.mostrarUsuario{
 		right: 30px;
+		top: 10px;
 	}
 	.menucat{
 		width: 50%;
 	}
+	.menuproductos{
+		width: 65%;
+	}
 	.selec_producto .categories{
 		margin-left:25px;
 		margin-right: 30px;
+	}
+	.img_producto_selec{
+		width: 45%;
 	}
 	.show_detail{
    	 min-height: 280px;
@@ -1157,8 +1282,19 @@ div.pedidopara input{
 	.producto{
 		width:58%;
 	}
+	.cart_detail{
+		right: 10px;
+		top: 65px;
+		z-index: 10;
+	}
 	.agregar_prod{
-		width: 55%;
+		width: 65%;
+	}
+	.detalle_carrito{
+		width: 35%;
+	}
+	.totales_pago{
+		width: 30%;
 	}
 	.gracias_pedido{
 		margin-top: 150px;
@@ -1190,16 +1326,20 @@ div.pedidopara input{
 	.qdesea_cat{
 		width: 65%;
 		margin:0 auto 25px auto;
-		padding-top: 100px;
+		padding-top: 60px;
 	}
 	.mostrarUsuario{
 		right: 82px;
+		top: 10px;
 	}
 	.menucat{
 		width: 50%;
 	}
+	.menuproductos{
+		width: 65%;
+	}
 	.selec_producto .categories{
-		margin-left:40px;
+		margin-left:50px;
 		margin-right: 30px;
 	}
 	.cols{
@@ -1231,6 +1371,11 @@ div.pedidopara input{
 	.producto{
 		width:58%;
 	}
+	.cart_detail{
+		right: 20px;
+		top: 65px;
+		z-index: 10;
+	}
 	.categories{
 		margin-top: 25px;
 	}
@@ -1244,7 +1389,7 @@ div.pedidopara input{
 		width: 35%;
 	}
 	.totales_pago{
-		width: 25%;
+		width: 30%;
 	}
 	.gracias_pedido{
 		margin-top: 150px;
