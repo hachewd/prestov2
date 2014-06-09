@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+	<meta charset="uft-8">
+<title>Presto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="icon" type="image/ico" href="images/ico.png" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/skin.css" type="text/css" >
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/bjqs.css" type="text/css" >
+<link rel="stylesheet" href="css/int-presto.css" type="text/css" >
+<link rel="stylesheet" href="css/pedido-presto.css" type="text/css" >
+<link rel="stylesheet" href="css/component.css" type="text/css" >
+
+<script src="//use.edgefonts.net/bebas-neue:n4:all.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.10366.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox').fancybox();
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+		});
+	</script>
+
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="pages">
+	<!-- Push Wrapper -->
+<div class="mp-pusher" id="mp-pusher">
+<!-- mp-menu -->
+	<nav id="mp-menu" class="mp-menu">
+		<div class="mp-level">
+			<h2 class="icon icon-world">Men&uacute;</h2>
+			<ul>
+				<li class="icon icon-arrow-left">
+					<a class="icon icon-display" href="#">Con&oacute;cenos</a>
+					<div class="mp-level">
+						<h2 class="icon icon-display">Con&oacute;cenos</h2>
+						<ul>
+							<li class="icon icon-arrow-left">
+								<a class="icon icon-phone" href="conocenos_historia.html">Historia</a>
+								<a class="icon icon-phone" href="conocenos_filosofia.html">Filosof&iacute;a</a>
+								<a class="icon icon-phone" href="conocenos_calidad.html">Calidad</a>
+								<a class="icon icon-phone" href="conocenos_sostenibilidad.html">Sostenibilidad</a>
+								<a class="icon icon-phone" href="conocenos_noticias.html">Noticias</a>
+							</li>
+							
+						</ul>
+					</div>
+				</li>
+				<li class="icon icon-arrow-left">
+					<a class="icon icon-news" href="#">Disfr&uacute;nos</a>
+					<div class="mp-level">
+						<h2 class="icon icon-news">Disfr&uacute;nos</h2>
+						<ul>
+							<li><a href="lista_categorias.html">men&uacute;</a></li>
+							<li><a href="nuevos_productos.html">nuevos productos</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="icon icon-arrow-left">
+					<a class="icon icon-shop" href="#">Promociones</a>
+					<div class="mp-level">
+						<h2 class="icon icon-shop">Promociones</h2>
+						<ul>
+							<li><a href="promos_clientefiel.html">CLIENTE FIEL</a></li>
+							<li><a href="promos_combos.html">COMBOS Y PROMOS</a></li>
+							<li><a href="promo_actividades.html">actividades</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="encuentranos.html">Encu&eacute;ntranos</a></li>
+				<li class="icon icon-arrow-left">
+					<a class="icon icon-shop" href="#">Fiestas</a>
+					<div class="mp-level">
+						<h2 class="icon icon-shop">Fiestas</h2>
+						<ul>
+							<li><a href="fiestas_infantiles.html">Infantiles</a></li>
+					<li><a href="fiestas_otras.html">Otras</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="icon icon-arrow-left">
+					<a class="icon icon-shop" href="#">Institucional</a>
+					<div class="mp-level">
+						<h2 class="icon icon-shop">Institucional</h2>
+						<ul>
+							<li><a href="insti_ventajas.html">ventajas</a></li>
+							<li><a href="insti_bonos.html">bonos</a></li>
+							<li><a href="insti_eventos.html">eventos</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="contactanos.html">Cont&aacute;ctanos</a></li>
+				<li><a href="trabaje_nosotros.html">Trabaja con nosotros</a></li>
+				<li><a href="ley_proteccion_datos.html">Ley protecci&oacute;n datos</a></li>
+				<li><a href="normas_comunidad.html">Normas de la comunidad</a></li>
+				<li><a href="informacion_legal.html">informaci&oacute;n legal</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- /mp-menu -->
+     <div class="scroller"><!-- this is for emulating position fixed of the nav -->
+          <div class="scroller-inner">
+               <!-- Top Navigation -->
+<section class="topage">
+<header role="top">
+	<section class="container top">
+		<figure role="logo"><a href="index.html"><img src="images/presto_logo.png"/></a></figure>
+		<section class="signup">
+			<a class="pedido fancybox" href="#login">Iniciar sesi&oacute;n</a> /
+			<a href="registro.html">Reg&iacute;strate</a>
+		</section>
+	</section>
+</header>
+<nav role="first_menu">
+	<section class="container">
+		<a href="#" id="trigger" class="icon-menu2"></a>
+		<ul id="menuprin">
+			<li><a href="conocenos_historia.html">Con&oacute;cenos</a></li>
+			<li><a href="lista_categorias.html">Disfr&uacute;nos</a>
+				<ul class="disf">
+					<li><a href="lista_categorias.html">men&uacute;</a></li>
+					<li><a href="nuevos_productos.html">nuevos productos</a></li>
+				</ul>
+			</li>
+			<li><a href="promos_clientefiel.html">Promociones</a>
+				<ul class="promos">
+					<li><a href="promos_clientefiel.html">CLIENTE FIEL</a></li>
+					<li><a href="promos_combos.html">COMBOS Y PROMOS</a></li>
+					<li><a href="promo_actividades.html">actividades</a></li>
+				</ul>
+			</li>
+			<li><a href="encuentranos.html">Encu&eacute;ntranos</a>
+				<ul class="encuentranos">
+					<li><form action="encuentranos.html">selecciona tu ciudad<select name="ciudad" id="ciudad">
+						<option value="1">Armenia</option>
+						<option value="2">Barranquilla</option>
+						<option value="3">Bogot&aacute;</option>
+						<option value="4">Bucaramanga</option>
+						<option value="5">Cali</option>
+						<option value="6">Cartagena</option>
+						<option value="7">Chia</option>
+						<option value="8">C&uacute;cuta</option>
+						<option value="9">Ibagu&eacute;</option>
+						<option value="10">Magangu&eacute;</option>
+						<option value="11">Manizales</option>
+						<option value="12">Medell&iacute;n</option>
+						<option value="13">Monteria</option>
+						<option value="14">Neiva</option>
+						<option value="15">Palmira</option>
+						<option value="16">Pasto</option>
+						<option value="17">Pereira</option>
+						<option value="18">Popay&aacute;n</option>
+						<option value="19">San Andr&eacute;s</option>
+						<option value="20">San Gil</option>
+						<option value="21">Santa Marta</option>
+						<option value="22">Valledupar</option>
+						<option value="23">Villavicencio</option>
+						<option value="24">Yopal</option>
+					</select><input type="submit" value="Ok">
+					</form>
+				</li>
+				</ul>
+			</li>
+			<li><a href="#">Fiestas</a>
+				<ul class="fiestas">
+					<li><a href="fiestas_infantiles.html">Infantiles</a></li>
+					<li><a href="fiestas_otras.html">Otras</a></li>
+				</ul>
+			</li>
+			<li><a href="insti_ventajas.html">Institucional</a>
+				<ul>
+					<li><a href="insti_ventajas.html">ventajas</a></li>
+					<li><a href="insti_bonos.html">bonos</a></li>
+					<li><a href="insti_eventos.html">eventos</a></li>
+				</ul>
+			</li>
+			<li><a href="contactanos.html">Cont&aacute;ctanos</a></li>
+		</ul>
+	</section>
+</nav>
+</section>
+	<section id="contenido" role="contenido">
+		<section class="screens">
+		   	<section id="login" class="screen" style="display: none;">
+	     		<p class="center">
+				<strong class="destacar">Servicio de domicilio en l&iacute;nea<br/>
+					12:00 am - 9:00 pm<br/>
+			<strong class="note">Dependiendo de tu ubicaci&oacute;n el horario puede variar</strong><br/></strong>
+				VALOR MINIMO PEDIDO <br/>
+				<strong class="destacar">$10.000</strong></p>
+
+				<aside class="login center">
+					<h4>inicia sesi&oacute;n</h4>
+					<form>
+						<input type="text" maxcharter="5" placeholder="Email registrado"/><br/>
+						<input type="password" maxcharter="5" placeholder="Contrase&ntilde;a"/><br/>
+						<a href="#recuperar" class="fancybox">Olvid&eacute; mi contrase&ntilde;a</a><br/>
+					
+						<!--<input type="submit" value="Inicia sesi&oacute;n"/>-->
+						<a href="#address" class="fancybox submit">Inicia sesi&oacute;n</a>
+					</form>
+					<a href=""><img src="images/conectar_facebook.jpg"/></a>
+				</aside>
+				<p class="center">&#191;No tienes cuenta en Presto? <br/><a href="registro.html" class="destacar"><strong>Reg&iacute;strate aqu&iacute;</strong></a></p><p class="center"><a href="#" class="destacar note">Beneficios de estar registrado</a></p>
+	      	</section>
+		      	<section id="address" class="screen" style="display:none">
+		      		<h5>&#191;d&oacute;nde quieres tu pedido?</h5>
+		      		<fieldset>
+			      		<input type="radio" name="address" value="casa"/><label>Carrera 13b # 163 - 5O torre 8 apto 301</label><br/>
+						<input type="radio" name="address" value="oficina"/><label>Carrera 7 # 109 - 40 apto 102</label><br/>
+					</fieldset>
+					<p class="center"><a href="#" class="addnew">Agregar otra direcci&oacute;n</a><br/>
+					* Puede variar respecto a tu zona de ubicaci&oacute;n<br/><br/>
+					<a href="lista_categorias.html" class="botones ">Continuar</a>
+				</p>
+		      	</section>
+	      </section>
+		<section class="container">
+			<!-- end header section -->
+			<h1 class="titseccion">Reg&iacute;stro completo</h1>
+			<section role="registro">
+				<article class="datos_usuario">
+					<p> E-mail registrado<br/>
+					<strong>silviacatalina23@gmail.com</strong></p>
+					<br/>
+					<p>Tel&eacute;fono<br/>
+					<strong>6714390 </strong></p>
+					<br/>
+					<p>Celular<br/>
+					<strong>3125095387</strong></p>
+					<br/>
+					<p>Direcci&oacute;n Principal <br/>
+					<strong>Carrera 13b # 163 - 5O <br/>
+					Aptartamento 301 - torre 8</strong></p>
+					<br/>
+					<p>Ciudad<br/>
+					<strong>Bogot&aacute;</strong></p>
+					<a href="#" class="botones floatright">Editar</a>
+				</article>
+				<article class="nombreusuario">
+					<h3>Silvia catalina pe&ntilde;a</h3>
+					<p>Tus datos han sido ingresados exitosamente en el sistema.<br/>
+						<strong>&#33;Gracias!</strong><br/><br/>
+						<a href="#" class="botones ccenter">Continuar</a>
+					</p>
+					
+				</article>
+			</section>
+			<!-- start footer section -->
+		</section>
+		<br/>
+		<br/>
+	</section>
+	<div class="bggradbt"></div>
+	<footer>
+	<section class="container">
+		<nav role="second_menu">
+			<ul>
+				<li><a href="trabaje_nosotros.html">Trabaja con nosotros</a></li>
+				<li><a href="ley_proteccion_datos.html">Ley protecci&oacute;n datos</a></li>
+				<li><a href="normas_comunidad.html">Normas de la comunidad</a></li>
+				<li><a href="informacion_legal.html">informaci&oacute;n legal</a></li>
+				<li><a href="sitemap.html">Mapa del sitio</a></li>
+			</ul>
+		</nav>
+		<aside role="socialmedia">
+			<div class="fb-like" data-href="http://clientes.hachedesign.com/presto/" data-width="100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+			<a href="#" class="icon-facebook"></a>
+		</aside>
+		</section>
+	</footer>	<!-- end footer section -->
+	</div><!-- /scroller-inner -->
+          </div><!-- /scroller -->
+     </div><!-- /pusher -->
+</div>
+
+	<script src="js/hwd-1.1.js"> </script>
+	<script src="js/classie.js"></script>
+		<script src="js/mlpushmenu.js"></script>
+		<script>
+			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+		</script>
+</body>
+</html>

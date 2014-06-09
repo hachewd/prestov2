@@ -1,0 +1,1065 @@
+/*paginas internas submenu*/
+.selec_page{
+	position: relative;
+}
+
+.selec_page .categories li {
+	background: #ff0000;
+	color: #fff;
+	margin: 5px 0;
+}
+.selec_page .categories li a{
+	background: #ffbd00;
+	color: #2c1b03;
+	font-size: 22px;
+	letter-spacing: -1px;
+	padding: 5px 10px;
+	width: 115px;
+}
+.selec_page .categories li a:hover{
+	background: #ff0000;
+	color: #fff;
+}
+.categories li a{
+	color: #57453e;
+	display: block;
+	font-size: 32px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+.categories li a:hover{
+	color:#ff0000;
+}
+.colum_menu, .colum_content{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*conocenos*/
+.colum_content figure, .colum_content section.historia{
+	display: inline-block;
+	vertical-align: top;
+}
+.colum_content figure img{
+	width: 100%;
+}
+.colum_content h2{
+	color: #534741;
+	font-family: bebas-neue, sans-serif;
+	font-size: 56px;
+	font-weight: normal;
+}
+.colum_content h3{
+	color: #534741;
+	font-family: bebas-neue, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	margin: 10px 0px;
+}
+.colum_content p, .selec_page p{
+	color: #534741;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 5px 0px 10px 0;
+	text-align: justify;
+}
+.align-right{
+	text-align: right;
+}
+.colum_content section.filosofia fieldset{
+	margin: 15px auto;
+
+}
+.colum_content section.filosofia legend{
+	display: block;
+}
+.colum_content section.filosofia p.destacado{
+	font-size: 38px;
+}
+.colum_content section.filosofia p.txtgrande{
+	font-size: 47px;
+}
+.colum_content section.filosofia .align-right{
+	text-align: right;
+}
+.colum_content figure.imgcenter{
+	display: block;
+	margin: 40px auto;
+	width:96%;
+}
+.colum_content section.filosofia fieldset.frases div{
+	display: inline-block;
+}
+.text1{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 27px;
+}
+.text2{
+	font-family: 'Roboto black', sans-serif;
+	font-size: 40px;
+	margin-left:100px; 
+}
+.text3{
+	font-family: 'Roboto light', sans-serif;
+	font-size: 30px;
+	margin-left:50px; 
+}
+.valores{
+	text-align: center;
+}
+.text4{
+	font-family: 'Roboto light', sans-serif;
+	font-size: 21px;
+	margin-left:50px; 
+}
+.text5{
+	display: block;
+	font-family: 'Roboto black', sans-serif;
+	font-size: 31px;
+	text-align: center;
+	width: 100%;
+}
+.text01{
+	font-family: 'Roboto light', sans-serif;
+	font-size: 25px;
+}
+.text02{
+	font-family: 'Roboto black', sans-serif;
+	font-size: 37px;
+	margin-left:50px; 
+}
+.text03{
+	font-family: 'Roboto black', sans-serif;
+	font-size: 28px;
+	margin-left:50px; 
+}
+.text04{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	margin-left:50px;
+}
+.text05{
+	font-family: 'Roboto light', sans-serif;
+	font-size: 27px;
+	margin-left:50px;
+}
+.text-center{
+	text-align: center;
+}
+/*calidad*/
+.resaltar{
+	color: #534741;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 27px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.colum_content section.calidad h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.colum_content section.calidad p{
+	font-size: 18px;
+}
+.colum_content section.calidad img{
+	clear: left;
+	display: inline-block;
+	float: right;
+	margin-left: 40px;
+	text-align: right;
+}
+.images-left{
+	clear: right;
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+}
+.images-right{
+	clear: left;
+	display: inline-block;
+	float: right;
+	margin-left: 40px;
+}
+.colum_content section.sostenibilidad p{
+	font-size: 18px;
+}
+
+/*promos*/
+.promos .listarpromos{
+	display: inline-block;
+	vertical-align: top;
+}
+.promos .listarpromos img{
+	border: 1px solid #000;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.promos .listarpromos{
+	margin: 20px 10px 0 0;
+}
+.promos h2, .leyproteccion h2{
+	color: #534741;
+	font-family: bebas-neue, sans-serif;
+	font-size: 56px;
+	font-weight: normal;
+	padding: 25px 0;
+}
+/*noticias*/
+.noticias{
+	position: relative;
+}
+.article, .imagesnew{
+	display: inline-block;
+	vertical-align: top;
+}
+.article{
+	width: 50%;
+	padding-right:5%; 
+}
+.imagesnew{
+	padding-left:5%; 
+}
+.imagesnew img{
+	width: 100%;
+}
+
+.prevBtn, .nextBtn {
+	margin:0;
+	padding:0;
+	display:block;
+	overflow:hidden;
+	text-indent:-8000px;
+	width:30px;
+	height:60px;
+	position:absolute;
+	top:45%;
+	z-index:1000;
+}	
+.prevBtn{
+	background:#1b100a url(../images/arrows.png) no-repeat -27px 10px;
+	left:-50px;
+}														
+.nextBtn {
+	right:-50px;
+	background:#1b100a url(../images/arrows.png) no-repeat 0px 10px; 
+}	
+
+
+/*encuentranos*/
+section[role="encuentranos"] .mapa{
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	width: 100%;
+}
+.configurar_mapa{
+	background: #ff0000;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+.configurar_mapa label{
+	display: inline-block;
+	margin: 2px 5px 2px 15px;
+}
+.configurar_mapa input[type="text"], .configurar_mapa select{
+	border:0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	margin: 5px;
+	padding:2px 5px;
+}
+ .configurar_mapa select{
+	width: 150px;
+	}
+.configurar_mapa input[type="submit"]{
+	background: #fff;
+	border: 0;
+	border-radius: 5px;
+	color: #ff0000;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 5px;
+	padding: 6px;
+}
+
+.locales table{
+	width: 100%;
+}
+.locales table tbody, .locales table thead{
+	color: #2c1b03;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.locales table thead{
+	font-size: 16px;
+	text-align: center;
+}
+.locales table thead th{
+	font-weight: normal;
+}
+.locales table tbody {
+	text-align: center;
+}
+.locales table tbody td{
+	border-bottom: 1px solid #2c1b03;
+}
+.locales table .direcc{
+	font-size: 20px;
+	text-align: left;
+}
+.locales table .direcc strong{
+	font-size: 23px;
+}
+.tipo{
+	color: #ff0000;
+}
+.locales table th, .locales table td{
+	padding: 5px;
+}
+
+.locales table .direcc .horario{
+	font-size: 18px;
+}
+
+/*contactanos*/
+section[role="contactanos"]{
+	
+	position: relative;
+}
+section[role="contactanos"] h3{
+	color: #ff0000;
+	font-family: bebas-neue, sans-serif;
+	font-size: 35px;
+	font-weight: normal;
+	padding: 50px 0 25px 0;
+	text-align: center;
+}
+.formcontact{
+	margin: 0 auto;
+	width: 70%;
+}
+.formcontact fieldset{
+	border: 0;
+	color: #534741;
+	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: 18px;
+	vertical-align: top;
+}
+.formcontact fieldset label{
+	display: block;
+	margin: 15px 0 2px 0;
+}
+.formcontact fieldset input[type="text"],.formcontact fieldset select, .formcontact fieldset textarea{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: 18px;
+	padding: 5px;
+	width: 85%;
+}
+
+/*Institucional*/
+.colum_content ul.lista, .bonos ul, ol.lista{
+	color: #2c210b;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin-left: 25px;
+}
+.lista li{
+	line-height: 35px;
+}
+.ventajas, .images_ventajas, .images_ventajas img, .colleft, .colright{
+	display: inline-block;
+	vertical-align: top;
+}
+.images_ventajas img{
+	margin: 3px;
+}
+.ventajas p, .bonos p, .bonos aside, .eventos p, .secc_inter p{
+	font-size: 18px;
+}
+.bonos{
+	padding-top: 15px;
+}
+.bonos h3{
+	font-size: 36px;
+	margin: 25px 0;
+	text-align: center;
+}
+/*Ley de proteccion y normas de la comunidad*/
+.leyproteccion p,.leyproteccion h4, .datoscontacto aside,.leyproteccion h5{
+	color: #534741;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 5px 0px 10px 0;
+	text-align: justify;
+}
+.leyproteccion h4{
+	font-weight: bold;
+}
+.datoscontacto{
+	width: 80%;
+}
+.datoscontacto, p.centrar{
+	margin: 15px auto;
+	text-align: center;
+}
+.datoscontacto strong{
+	color: #534741;
+	clear: right;
+	float: left;
+	font-family: bebas-neue, sans-serif;
+	font-size: 56px;
+	font-weight: normal;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.leyproteccion h5{
+	font-weight: bold;
+}
+.leyproteccion h4.bebas{
+	color: #534741;
+	font-family: bebas-neue, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+.leyproteccion fieldset{
+	border: 0;
+	margin:0;
+	padding: 8px 0;
+}
+.leyproteccion fieldset label{
+	display: inline-block;
+	padding: 5px 0;
+}
+.leyproteccion fieldset legend{
+	color: #ff0000;
+	font-family: bebas-neue, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+}
+.leyproteccion .campos{
+	display:inline-block;
+	font-family: 'Roboto light', sans-serif;
+	font-size: 14px;
+	padding: 0 8px;
+	vertical-align: top;
+}
+/*fiestas*/
+section[role="fiestas"]{
+	background:#bfe5e1 url(../images/fondo_fiestas.jpg) repeat-x;
+}
+section[role="otrasfiestas"]{
+	background:#00b3a7 url(../images/fondo_otrasfiestas.png);
+}
+.fiestasform{
+	position:relative;
+	width: 100%;
+}
+.fiestasform img.content{
+	position: relative;
+	width:100%;
+	z-index: 10;
+}
+.movil_reserve{
+	position: relative;
+}
+.reservar{
+	display: block;
+	position: absolute;
+	z-index: 11;
+}
+.reservar img{
+	width: 100%;
+}
+.fiesta_infantil{
+	border: 0;
+	position: relative;
+	z-index: 20;
+}
+.fiesta_infantil label{
+	display: inline-block;
+}
+input[type="submit"].enviarfiesta{
+	border:0;
+	background: transparent url(../images/btn_enviarfiestas.png) no-repeat;
+	cursor: pointer;
+	height: 70px;
+	text-indent: 250px;
+	overflow: hidden;
+	width:150px;
+}
+.fiesta_infantil input[type="text"], .fiesta_infantil textarea, .fiesta_infantil select{
+	background: #fff;
+	border: 1px solid #999;
+	display: block;
+	margin: 5px 0;
+	padding: 5px;
+	width:60%;
+}
+.fiesta_infantil{
+	color: #534741;
+	font-family: 'Roboto Regular', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0px;
+}
+.fondo{
+	position: absolute;
+	z-index: 1;
+}
+.titFiestas img, .subtitFiestas img{
+	width:100%;
+}
+.fiesta_infantil label span{
+	color:#ff0000;
+}
+/**/
+.locales table td{
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+.locales table tr:nth-of-type(odd) { 
+	background: #eaeaea; 
+}
+
+
+@media only screen and (min-width: 240px) and (max-width: 799px)  {
+	.colum_menu{
+		margin-left:10px;
+		margin-right: 30px;
+		margin-top: 10px;
+	}
+	.selec_page{
+		padding-top: 10px;
+	}
+	.colum_content{
+		display: block;
+		margin:0 auto;
+		width:95%;
+	}
+	.colum_content figure.left{
+		display: block;
+		margin: 10px auto;
+		width:80%;
+	}
+	
+	.colum_content section.historia{
+		display: block;
+		margin: 40px auto;
+		width:90%;
+	}
+	section.filosofia{
+		display: block;
+		margin: 40px auto;
+		width:95%;
+	}
+	.colum_content section.calidad img{
+		clear: none;
+		display: block;
+		float: none;
+		margin: 20px auto;
+	}
+	.promos{
+		margin: 0px auto;
+		width: 90%;
+	}
+	section[role="encuentranos"]{
+		margin: 20px auto;
+		width: 90%;
+	}
+	section[role="encuentranos"] .mapa{
+		height: 250px;
+	}
+	section[role="contactanos"]{
+		margin: 20px auto;
+		width: 98%;
+	}
+	.formcontact, .formcontact fieldset{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.configurar_mapa{
+		margin: 20px auto;
+		width: 95%;
+	}
+	.ventajas{
+		margin: 15px;
+	}
+	.images_ventajas{
+		margin: 25px 0;
+	}
+	.images_ventajas img{
+		width: 180px;
+	}
+	.images-right,.images-left{
+		clear: none;
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+	.reservar{
+		bottom: 60px;
+		right: 10px;
+		width: 120px;
+	}
+	section[role="fiestas"] .fiestasform img[alt="kanguro"], .movil_reserve{
+		display: block;
+	}
+	section[role="fiestas"] .fiestasform img[alt="fiesta"], .desktop_reserve{
+		display: none;
+	}
+	.locales{
+		width: 100%;
+	}
+	.locales table.local table,.locales table.local tbody,.locales table.local th,.locales table.local td,.locales table.local tr{
+		display:block;
+		font-size: 11px;
+	}
+	.locales table.local thead tr{
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.locales table.local tr{
+		 border: 1px solid #ccc;
+		 padding: 8px 2px;
+	}
+	.locales table.local td { 
+			/* Behave  like a "row" */
+			border: 0;
+			/*border-bottom: 1px solid #eee; */
+			position: relative;
+			padding-left: 40%;
+			font-size: 11px;
+			padding-top: 2%;
+			padding-bottom: 2%;
+		}
+	.locales table.local td:before { 
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			/*top: 6px;*/
+			left: 6px;
+			width: 25%; 
+			padding-right: 10px;
+			white-space: nowrap;
+			font-size: 11px;
+	}
+	.locales table.local td:nth-of-type(1):before { content: " "; }
+	.locales table.local td:nth-of-type(2):before { content: "Tipo Restaurante"; }
+	.locales table.local td:nth-of-type(3):before { content: "Video Juegos"; }
+	.locales table.local td:nth-of-type(4):before { content: "Fiestas Infantiles"; }
+	.locales table.local td:nth-of-type(5):before { content: "Parque Infantil"; }
+	.locales table.local td:nth-of-type(6):before { content: "Parqueadero"; }
+	.locales table.local td:nth-of-type(7):before { content: "Wi - Fi"; }
+	.locales table td{
+		padding: 8px 4px;
+	}
+	/*noticias*/
+	.noticias{
+		margin: 0 auto;
+		width: 80%;
+	}
+	.article{		
+ 		margin: 0 auto;
+		width: 95%;
+	}
+	.imagesnew{
+		display: block;
+		margin: 0 auto;
+		width:50%;
+	}
+	/*fiestas*/
+	.fiestasform{
+		height:870px;
+	}
+	.titFiestas, .subtitFiestas{
+		margin:0 0 0 25%;
+		padding-top:15px;
+		width:40%;
+	}
+	.fiesta_infantil{
+		color: #534741;
+		display: block;
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin:25px 25px 15px 25%;
+		width:70%;
+	}
+	.fiesta_infantil label{
+		width:30%;
+	}
+	input[type="submit"].enviarfiesta{
+		display: block;
+		margin: 0 auto;
+	}
+	
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px)  {
+	.colum_menu{
+		margin-top: 15px;
+		margin-left:25px;
+		margin-right: 30px;
+	}
+	.selec_page{
+		padding-top: 30px;
+	}
+	.colum_content{
+		margin-top: 15px;
+		width:75%;
+	}
+	.colum_content figure.left{
+		margin: 20px 10px;
+		width:40%;
+	}
+	.colum_content section.historia{
+		margin: 20px 15px;
+		width:51%;
+	}
+	section[role="encuentranos"]{
+		margin: 20px auto;
+		width: 90%;
+	}
+	section[role="encuentranos"] .mapa{
+		height:400px;
+	}
+	section[role="contactanos"]{
+		margin: 20px auto;
+		width: 98%;
+	}
+	.formcontact{
+		margin: 0 auto;
+		width: 70%;
+	}
+	.formcontact fieldset{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.configurar_mapa{
+		margin: 20px auto;
+		width: 95%;
+	}
+	.locales{
+		margin: 0 auto;
+		width: 85%;
+	}
+	.ventajas{
+		margin: 15px;
+	}
+	.images_ventajas{
+		margin: 25px 0;
+	}
+	.leyproteccion{
+		margin: 0 auto;
+		width: 95%;
+	}
+	.reservar{
+		bottom: 50px;
+		right: 80px;
+		width: 150px;
+	}
+	section[role="fiestas"] .fiestasform img[alt="kanguro"], .movil_reserve{
+		display: block;
+	}
+	section[role="fiestas"] .fiestasform img[alt="fiesta"], .desktop_reserve{
+		display: none;
+	}
+	/*noticias*/
+	.noticias{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.article{		
+		padding-right:5%; 
+		width: 40%;
+	}
+	.imagesnew{
+		padding-left:5%; 
+		width:40%;
+	}
+	/*fiestas*/
+	.fiestasform{
+		min-height:650px;
+	}
+	
+	.fiesta_infantil{
+		color: #534741;
+		display: block;
+		font-family: 'Roboto Regular', sans-serif;
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin:25px 25px 15px 25%;
+		width:55%;
+		-webkit-column-count:2; /* Chrome, Safari, Opera */
+		-moz-column-count:2; /* Firefox */
+		column-count:2;
+	}
+	.titFiestas, .subtitFiestas{
+		margin:0 auto;
+		padding-top:15px;
+		width:35%;
+	}
+	.fiesta_infantil label{
+		font-size: 13px;
+	}
+	.fiesta_infantil input[type="text"], .fiesta_infantil textarea, .fiesta_infantil select{
+		font-size: 13px;
+		margin: 2px 0;
+		padding: 2px;
+		width:200px;
+	}
+	.fiesta_infantil textarea{
+		height: 80px;
+	}
+	input[type="submit"].enviarfiesta{
+		margin: 0 0 0 80px;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+	.colum_menu{
+		margin-left:25px;
+		margin-right: 30px;
+	}
+	.selec_page{
+		padding-top: 50px;
+	}
+	.colum_content{
+		width:75%;
+	}
+	.colum_content figure.left{
+		margin: 20px 10px;
+		width:40%;
+	}
+	
+	.colum_content section.historia{
+		margin: 20px 15px;
+		width:53%;
+	}
+	section[role="encuentranos"]{
+		margin: 20px auto;
+		width: 70%;
+	}
+	section[role="encuentranos"] .mapa{
+		height:450px;
+	}
+	section[role="contactanos"]{
+		margin: 20px auto;
+		width: 98%;
+	}
+	.formcontact{
+		margin: 0 auto;
+		width: 80%;
+	}
+	.formcontact fieldset{
+		margin: 0 25px;
+		width: 40%;
+	}
+	.configurar_mapa{
+		margin: 20px auto;
+		width: 90%;
+	}
+	.locales{
+		margin: 0 auto;
+		width: 85%;
+	}
+	.ventajas{
+		width: 30%;
+		margin: 15px;
+	}
+	.images_ventajas{
+		width: 65%;
+	}
+	.leyproteccion{
+		margin: 0 auto;
+		width: 75%;
+	}
+	.reservar{
+		bottom: 50px;
+		right: 80px;
+		width: 200px;
+	}
+	.colum_content section.filosofia fieldset{
+		padding: 10px 40px;
+		width: 88%;
+	}
+	section[role="fiestas"] .fiestasform img[alt="kanguro"], .movil_reserve{
+		display: none;
+	}
+	section[role="fiestas"] .fiestasform img[alt="fiesta"], .desktop_reserve{
+		display: block;
+	}
+	/*noticias*/
+	.noticias{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.article{		
+		padding-right:5%; 
+		width: 45%;
+	}
+	.imagesnew{
+		padding-left:5%; 
+		width:40%;
+	}
+	.fiesta_infantil{
+		border: 0;
+		left: calc(60% /3 );
+		position: absolute;
+		padding-top:22%;
+		top: 25px;
+		width: 45%;
+		-webkit-column-count:2; /* Chrome, Safari, Opera */
+		-moz-column-count:2; /* Firefox */
+		column-count:2;
+		z-index: 10;
+	}
+	.fiesta_infantil label{
+		font-size: 13px;
+	}
+	.fiesta_infantil input[type="text"], .fiesta_infantil textarea, .fiesta_infantil select{
+		font-size: 13px;
+		padding: 2px;
+		width:200px;
+	}
+	.fiesta_infantil textarea{
+		height: 100px;
+	}
+	input[type="submit"].enviarfiesta{
+		margin: 0 0 0 35%;
+	}
+}
+@media only screen and (min-width: 1281px) {
+	.colum_menu{
+		margin-left:50px;
+		margin-right: 30px;
+	}
+	.selec_page{
+		padding-top: 50px;
+	}
+	.colum_content{
+		width:80%;
+	}
+	.colum_content figure.left{
+		margin: 20px 10px;
+		width:40%;
+	}
+	.colum_content section.historia{
+		margin: 20px 15px;
+		width:53%;
+	}
+	.promos{
+		margin: 0px auto;
+		width: 60%;
+	}
+	section[role="encuentranos"]{
+		margin: 20px auto;
+		width: 70%;
+	}
+	section[role="encuentranos"] .mapa{
+		height:450px;
+	}
+	section[role="contactanos"]{
+		margin: 20px auto;
+		width: 98%;
+	}
+	.formcontact{
+		margin: 0 auto;
+		width: 70%;
+	}
+	.formcontact fieldset{
+		margin: 0 25px;
+		width: 40%;
+	}
+	.configurar_mapa{
+		margin: 20px auto;
+		width: 90%;
+	}
+	.locales{
+		margin: 0 auto;
+		width: 85%;
+	}
+	.ventajas{
+		width: 30%;
+		margin: 15px;
+	}
+	.images_ventajas{
+		width: 65%;
+	}
+	.colleft{
+		margin-right: 35px;
+		width: 40%;
+	}
+	.colright{
+		width: 55%;
+	}
+	.leyproteccion{
+		margin: 0 auto;
+		width: 75%;
+	}
+	.reservar{
+		bottom: 50px;
+		right: 100px;
+		width: 275px;
+	}
+	.colum_content section.filosofia fieldset{
+		padding: 10px 40px;
+		width: 88%;
+	}
+	section[role="fiestas"] .fiestasform img[alt="kanguro"], .movil_reserve{
+		display: none;
+	}
+	section[role="fiestas"] .fiestasform img[alt="fiesta"], .desktop_reserve{
+		display: block;
+	}
+	
+	/*noticias*/
+	.noticias{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.article{		
+		padding-right:5%; 
+		width: 40%;
+	}
+	.imagesnew{
+		padding-left:5%; 
+		width:40%;
+	}
+	/*fiestas**/
+	.fiesta_infantil{
+		border: 0;
+		left: calc(57% /3);
+		position: absolute;
+		padding-top:25%;
+		top: 0;
+		width: 50%;
+		-webkit-column-count:2; /* Chrome, Safari, Opera */
+		-moz-column-count:2; /* Firefox */
+		column-count:2;
+		z-index: 10;
+	}
+	.fiesta_infantil label{
+		font-size: 16px;
+	}
+	.fiesta_infantil input[type="text"], .fiesta_infantil textarea, .fiesta_infantil select{
+		font-size: 16px;
+		padding: 2px;
+		width:210px;
+	}
+	.fiesta_infantil textarea{
+		width:300px;
+		height: 100px;
+	}
+	input[type="submit"].enviarfiesta{
+		margin:10px 0 0 150px;
+	}
+
+}
