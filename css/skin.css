@@ -80,7 +80,7 @@ nav[role="first_menu"] li li{
 	display: inline-block;
 	vertical-align: top;
 }
-nav[role="first_menu"] li li a:hover{
+nav[role="first_menu"] li li a:hover, nav[role="first_menu"] li li a:active, nav[role="first_menu"] li li a:focus{
 	background:  #ff0000;
 	color:#2c210b;
 }
@@ -273,7 +273,7 @@ p.bjqs-caption{
 .rojo{
 	color: #ff0000;
 }
-@media only screen and (min-width: 240px) and (max-width:799px)  {
+@media only screen and (min-width: 240px) and (max-width:800px)  {
 	/* Styles */
 	section[role="contenido"]{
 		padding-top: 90px;
@@ -284,10 +284,11 @@ p.bjqs-caption{
 		text-align: left;
 	}
 	footer{
-		position: relative;
+		position: fixed;
+		bottom: 0;
 	}
 	.bggradbt{
-		position: absolute;
+		position: fixed;
 		bottom: 50px;
 	}
 	.container{
@@ -330,7 +331,7 @@ p.bjqs-caption{
 	}
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 800px) and (max-width: 1024px)  {
+@media only screen and (min-width: 801px) and (max-width: 1023px)  {
 
 /* Styles */
 	section[role="contenido"]{
@@ -341,10 +342,11 @@ p.bjqs-caption{
 		vertical-align: top;
 	}
 	footer{
-		position: relative;
+		position: fixed;
+		bottom: 0;
 	}
 	.bggradbt{
-		position: absolute;
+		position: fixed;
 		bottom: 50px;
 	}
 	.container{
@@ -352,7 +354,7 @@ p.bjqs-caption{
 		width: 100%;
 	}
 	figure[role="logo"]{
-		height: 188px;
+		height: 178px;
 		left: 25px;
 		width: 127px;
 	}
@@ -365,7 +367,7 @@ p.bjqs-caption{
 		margin:  0;
 	}
 	nav[role="first_menu"] li a, nav[role="first_menu"] ul.encuentranos{
-		font-size: 1.1em;
+		font-size: 1.05em;
 	}
 	.signup{
 		right: 10px;
@@ -389,12 +391,12 @@ p.bjqs-caption{
 		font-weight: none;
 	}
 	aside[role="socialmedia"]{
-		margin-left: 4%;
+		margin-left: 2%;
 	}
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
 /* Styles */
 	nav li{
 		display: inline-block;
@@ -432,7 +434,7 @@ p.bjqs-caption{
 		right: 30px;
 	}
 	nav[role="first_menu"] ul{
-		margin: 0 25px 0 160px;
+		margin: 0 25px 0 155px;
 	}
 	section[role="contenido"]{
 		padding-top: 148px;
@@ -475,14 +477,14 @@ p.bjqs-caption{
 		width: 1280px;
 	}
 	section[role="productos"]{
-		width: 98%;
+		width: 100%;
 		margin: 20px auto;
 	}
 	header[role="top"]{
 		height: 100px;
 	}
 	figure[role="logo"]{
-		height: 188px;
+		height: 178px;
 		left: 50px;
 		width: 127px;
 	}

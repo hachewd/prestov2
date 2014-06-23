@@ -130,15 +130,15 @@
           <div class="scroller-inner">
                <!-- Top Navigation -->
 <section class="topage">
-<header role="top">
-	<section class="container top">
-		<figure role="logo"><a href="index.html"><img src="images/presto_logo.png"/></a></figure>
-		<section class="signup">
-			<a class="pedido fancybox" href="#login">Iniciar sesi&oacute;n</a> /
-			<a href="registro.html">Reg&iacute;strate</a>
+	<header role="top">
+		<section class="container top">
+			<figure role="logo"><a href="index.html"><img src="images/presto_logo.png"/></a></figure>
+			<section class="signup">
+				<a class="pedido fancybox" href="#login">Iniciar sesi&oacute;n</a> /
+				<a href="registro.html">Reg&iacute;strate</a>
+			</section>
 		</section>
-	</section>
-</header>
+	</header>
 <nav role="first_menu">
 	<section class="container">
 		<a href="#" id="trigger" class="icon-menu2"></a>
@@ -207,8 +207,8 @@
 	</section>
 </nav>
 </section>
-	<section id="contenido" role="contenido">
-		<section class="screens">
+<section id="contenido" role="contenido">
+	<section class="screens">
 		   	<section id="login" class="screen" style="display: none;">
 	     		<p class="center">
 				<strong class="destacar">Servicio de domicilio en l&iacute;nea<br/>
@@ -242,79 +242,56 @@
 					<a href="lista_categorias.html" class="botones ">Continuar</a>
 				</p>
 		      	</section>
+		      	<section id="promo" class="screen" style="display:none">
+		      		<aside>
+		      			<img src="images/promo1_detalle.jpg" alt="promo1">
+		      		</aside>
+		      		<aside class="text-center"><a href="#" class="botones">Ok, pedir</a></aside>
+		      	</section>
 	      </section>
-		<section class="container">
-			<!-- End header section -->
-			<h1 class="titseccion">Reg&iacute;strate</h1>
-			<section role="registro">
-				<form action="registro_existoso.html" method="post">
-					<section class="cols">
-						<h2>Informaci&oacute;n Personal</h2>
-						<fieldset>
-							<label><strong>*</strong>Nombre:</label><br/>
-							<INPUT type="text" name="name" id="name" size="35"><br/>
-							<label><strong>*</strong>Apellido:</label><br/>
-							<INPUT type="text" name="lastname" id="lastname"  size="35"><br/>
-							<label><strong>*</strong>Tel&eacute;fono:</label><br/>
-							<INPUT type="text" name="phone" id="phone"  size="35"><br/>
-							<label><strong>*</strong>Celular:</label><br/>
-							<INPUT type="text" name="movil" id="movil"  size="35"><br/>
-							<label><strong>*</strong>Correo Electr&oacute;nico:</label><br/>
-							<INPUT type="text" name="email" id="email"  size="35"><br/>
-							<label>Cumplea&ntilde;os:</label><br/>
-							<select type="text" name="month" id="month">
-								<option>01</option>
-								<option>02</option>
-							</select>
-							<select type="text" name="year" id="year">
-								<option>1990</option>
-								<option>1991</option>
-								<option>1992</option>
-								<option>1993</option>
-							</select> &oacute; <input type="date" name="bday">
-						</fieldset>
-					</section>
-					<section class="cols">
-						<h2>Ubicaci&oacute;n</h2>
-						<fieldset class="direcciones">
-							<fildset class="direccion">
-								<legend><a href="#">Direcci&oacute;n #1:</a></legend>
-								<label><strong>*</strong>Direcci&oacute;n:</label><br/>
-								<select type="text" name="state" id="state">
-									<option>Estado</option>
+		<section role="otrasfiestas">
+			<section class="container">
+				<section class="otrasfiestasotrform">
+					<img src="images/celebra_connostros.png" alt="fiesta" class="fiestaconosotros">
+					<fieldset class="otra_reservas">
+						<h3>Llena y env&iacute;a este formulario</h4>
+						<h4>Un asesor te contactara antes de 24 horas</h4>
+						
+							<div class="res_campos">
+								<label for="nombre"><span>*</span>Nombre</label>
+								<input type="text" id="nombre">
+							</div>
+							<div class="res_campos">
+								<label for="apellido"><span>*</span>Apellido</label>
+								<input type="text" id="apellido">
+							</div>
+							<div class="res_campos">
+								<label for="correo"><span>*</span>Correo</label>
+								<input type="text" id="correo">
+							</div>
+							<div class="res_campos">
+								<label for="telefono"><span>*</span>Tel&eacute;fono</label>
+								<input type="text" id="telefono">
+							</div>
+	
+						<h3 style="text-align:left;">&#191;DONDE HACERLA?</h3>
+							<div class="res_campos camp_complet">
+								<label for="direccion"><span>*</span>Ciudad</label>
+								<select name="ciudad" id="ciudad">
+									<option value="1">ciudad 1</option>
+									<option value="2">ciudad 2</option>
+									<option value="3">ciudad 3</option>
 								</select>
-								<INPUT type="text" name="address1" id="address1" maxlength="10" size="5"> #
-								<INPUT type="text" name="address2" id="address2" size="5"> - 
-								<INPUT type="text" name="address3" id="address4" size="5"><br/>
-								<label><strong>*</strong>Casa, oficina, Apartamento, Torre, etc:</label><br/>
-								<INPUT type="text" name="address4" id="address4"  size="35"><br/>
-								<label><strong>*</strong>Barrio:</label><br/>
-								<INPUT type="text" name="neighborhood" id="neighborhood" size="35"><br/>
-								<label><strong>*</strong>Ciudad:</label><br/>
-								<select type="text" name="city" id="city">
-									<option>Estado</option>
-								</select>
-								<br/>
-							</fildset>
-							<a href="#" class="addnew">Agregar otra direcci&oacute;n</a>
-						</fieldset>
-					</section>
-					<section class="cols">
-						<h2>Informaci&oacute;n de Registro</h2>
-						<fieldset>
-							<label><strong>*</strong>Usuario:</label><br/>
-							<INPUT type="text" name="user" id="user" size="35"><br/>
-							<label><strong>*</strong>Contrase&ntilde;a:</label><br/>
-							<INPUT type="password" name="pass" id="pass" size="35"><br/>
-							<label><strong>*</strong>Confirmar contrase&ntilde;a:</label><br/>
-							<INPUT type="text" name="repassword" id="repassword" size="35"><br/>
-							<input type="checkbox" name="newsletter" id="newsletter" value="si"> <strong class="note">Recibir en mi correo invitaciones y ofertas de Presto</strong><br/>
-							<input type="submit" value="Registrar" name="registrar" id="registrar">
-						</fieldset>
-					</section>
-				</form>
+							</div><br/>
+							<div class="res_campos camp_complet">
+								<label for="comentario"><span>*</span>Comentario</label>
+								<textarea name="comentario" id="comentario" cols="30" rows="7"></textarea>
+							</div>
+						<input type="submit" value="enviar"  class="enviarOtrafiesta">
+					</fieldset>
+				</section>
+				<br/><br/>
 			</section>
-			 <!-- start footer section -->
 		</section>
 	</section>
 	<div class="bggradbt"></div>
@@ -335,16 +312,16 @@
 		</aside>
 		</section>
 	</footer>	<!-- end footer section -->
-	</div><!-- /scroller-inner -->
+			</div><!-- /scroller-inner -->
           </div><!-- /scroller -->
      </div><!-- /pusher -->
 </div>
 
 	<script src="js/hwd-1.1.js"> </script>
 	<script src="js/classie.js"></script>
-		<script src="js/mlpushmenu.js"></script>
-		<script>
-			new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
-		</script>
+	<script src="js/mlpushmenu.js"></script>
+	<script>
+		new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+	</script>
 </body>
 </html>

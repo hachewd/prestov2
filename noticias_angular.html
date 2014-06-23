@@ -17,6 +17,7 @@
 <script type="text/javascript" src="js/modernizr.custom.10366.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bjqs-1.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
 	<!-- Add fancyBox main JS and CSS files -->
 	<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
@@ -37,7 +38,14 @@
 			});
 		});
 	</script>
-
+<script type="text/javascript">
+		$(document).ready(function(){	
+			var sudoSlider = $("#slider").sudoSlider({
+                continuous: true,
+                responsive: true,
+            });
+		});	
+	</script>
 
 </head>
 <body>
@@ -125,7 +133,7 @@
 			</ul>
 		</div>
 	</nav>
-	<!-- /mp-menu -->
+<!-- /mp-menu -->
      <div class="scroller"><!-- this is for emulating position fixed of the nav -->
           <div class="scroller-inner">
                <!-- Top Navigation -->
@@ -207,6 +215,7 @@
 	</section>
 </nav>
 </section>
+	
 	<section id="contenido" role="contenido">
 		<section class="screens">
 		   	<section id="login" class="screen" style="display: none;">
@@ -242,80 +251,49 @@
 					<a href="lista_categorias.html" class="botones ">Continuar</a>
 				</p>
 		      	</section>
+		      	<section id="observ" class="screen" style="display:none">
+		      		<h3 class="vent_title">Observaciones</h3>
+		      		<textarea rows="4" cols="50">Por favor enviar mucha salsa presto y que la gaseosa est&eacute; bien fria!</textarea>
+		      		<INPUT type="submit" value="ok">
+		      	</section>
 	      </section>
 		<section class="container">
-			<!-- End header section -->
-			<h1 class="titseccion">Reg&iacute;strate</h1>
-			<section role="registro">
-				<form action="registro_existoso.html" method="post">
-					<section class="cols">
-						<h2>Informaci&oacute;n Personal</h2>
-						<fieldset>
-							<label><strong>*</strong>Nombre:</label><br/>
-							<INPUT type="text" name="name" id="name" size="35"><br/>
-							<label><strong>*</strong>Apellido:</label><br/>
-							<INPUT type="text" name="lastname" id="lastname"  size="35"><br/>
-							<label><strong>*</strong>Tel&eacute;fono:</label><br/>
-							<INPUT type="text" name="phone" id="phone"  size="35"><br/>
-							<label><strong>*</strong>Celular:</label><br/>
-							<INPUT type="text" name="movil" id="movil"  size="35"><br/>
-							<label><strong>*</strong>Correo Electr&oacute;nico:</label><br/>
-							<INPUT type="text" name="email" id="email"  size="35"><br/>
-							<label>Cumplea&ntilde;os:</label><br/>
-							<select type="text" name="month" id="month">
-								<option>01</option>
-								<option>02</option>
-							</select>
-							<select type="text" name="year" id="year">
-								<option>1990</option>
-								<option>1991</option>
-								<option>1992</option>
-								<option>1993</option>
-							</select> &oacute; <input type="date" name="bday">
-						</fieldset>
-					</section>
-					<section class="cols">
-						<h2>Ubicaci&oacute;n</h2>
-						<fieldset class="direcciones">
-							<fildset class="direccion">
-								<legend><a href="#">Direcci&oacute;n #1:</a></legend>
-								<label><strong>*</strong>Direcci&oacute;n:</label><br/>
-								<select type="text" name="state" id="state">
-									<option>Estado</option>
-								</select>
-								<INPUT type="text" name="address1" id="address1" maxlength="10" size="5"> #
-								<INPUT type="text" name="address2" id="address2" size="5"> - 
-								<INPUT type="text" name="address3" id="address4" size="5"><br/>
-								<label><strong>*</strong>Casa, oficina, Apartamento, Torre, etc:</label><br/>
-								<INPUT type="text" name="address4" id="address4"  size="35"><br/>
-								<label><strong>*</strong>Barrio:</label><br/>
-								<INPUT type="text" name="neighborhood" id="neighborhood" size="35"><br/>
-								<label><strong>*</strong>Ciudad:</label><br/>
-								<select type="text" name="city" id="city">
-									<option>Estado</option>
-								</select>
-								<br/>
-							</fildset>
-							<a href="#" class="addnew">Agregar otra direcci&oacute;n</a>
-						</fieldset>
-					</section>
-					<section class="cols">
-						<h2>Informaci&oacute;n de Registro</h2>
-						<fieldset>
-							<label><strong>*</strong>Usuario:</label><br/>
-							<INPUT type="text" name="user" id="user" size="35"><br/>
-							<label><strong>*</strong>Contrase&ntilde;a:</label><br/>
-							<INPUT type="password" name="pass" id="pass" size="35"><br/>
-							<label><strong>*</strong>Confirmar contrase&ntilde;a:</label><br/>
-							<INPUT type="text" name="repassword" id="repassword" size="35"><br/>
-							<input type="checkbox" name="newsletter" id="newsletter" value="si"> <strong class="note">Recibir en mi correo invitaciones y ofertas de Presto</strong><br/>
-							<input type="submit" value="Registrar" name="registrar" id="registrar">
-						</fieldset>
-					</section>
-				</form>
-			</section>
-			 <!-- start footer section -->
+			<!-- end header section -->
+<!-- end header section -->
+<section class="selec_page">
+	<section class="colum_menu">
+		<nav class="categories">
+			<ul>
+				<li><a href="#/historia">historia</a></li>
+				<li><a href="#/filosofia">filosof&iacute;a</a></li>
+				<li><a href="#/calidad">calidad</a></li>
+				<li><a href="#/sostenibilidad">sostenibilidad</a></li>
+				<li><a href="#/noticias">Noticias</a></li>
+			</ul>
+		</nav>
+	</section>
+	<section class="colum_content">
+		<section class="noticias">
+			<div id="slider">
+				<ul rn-carousel rn-carousel-control class="image slidernoticias">
+					<li ng-repeat="new in viewdata.news" style="height:100%;">
+						<div class="layer" class="news">
+							<div class="col1">
+								<h2>Noticias</h2>
+								<p class="article">El rico sabor de Presto llega al parque Santander en Bogot&aacute;. Nuestro nuevo local en la Calle 17 con Cra. 7, ubicado al frente del edificio de Avianca, cuenta con un ambiente acogedor que ha encantado a nuestros clientes. Te invitamos para que vengas a disfrutar de nuestros deliciosos productos.</p>	
+							</div>							
+							<div class="col2">
+								<div class="imagesnew"><img src="{{viewdata.imageserverurl}}local_santander.jpg" alt="Make me that sandwich!!!"/></div>	
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>	
+
 		</section>
+	</section>
+</section>
+	<!-- start footer section -->
 	</section>
 	<div class="bggradbt"></div>
 	<footer>
@@ -335,10 +313,11 @@
 		</aside>
 		</section>
 	</footer>	<!-- end footer section -->
-	</div><!-- /scroller-inner -->
+		</div><!-- /scroller-inner -->
           </div><!-- /scroller -->
      </div><!-- /pusher -->
 </div>
+
 
 	<script src="js/hwd-1.1.js"> </script>
 	<script src="js/classie.js"></script>

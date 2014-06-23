@@ -1,130 +1,131 @@
-re<!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="uft-8">
-		<title>Presto</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<link rel="icon" type="image/ico" href="images/ico.png" />
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/skin.css" type="text/css" >
-		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<link rel="stylesheet" href="css/bjqs.css" type="text/css" >
-		<link rel="stylesheet" href="css/pedido-presto.css" type="text/css" >
-		<link rel="stylesheet" href="css/component.css" type="text/css" >
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+     <meta charset="uft-8">
+<title>Presto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="icon" type="image/ico" href="images/ico.png" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/skin.css" type="text/css" >
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/bjqs.css" type="text/css" >
+<link rel="stylesheet" href="css/int-presto.css" type="text/css" >
+<link rel="stylesheet" href="css/pedido-presto.css" type="text/css" >
+<link rel="stylesheet" href="css/component.css" type="text/css" >
 
-		<script src="//use.edgefonts.net/bebas-neue:n4:all.js"></script>
-		<script type="text/javascript" src="js/modernizr.custom.10366.js"></script>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bjqs-1.3.min.js"></script>
-			<!-- Add fancyBox main JS and CSS files -->
-		<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
-		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
-		<script type="text/javascript">
-			$(document).ready(function() {
+<script src="//use.edgefonts.net/bebas-neue:n4:all.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.10366.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+     <!-- Add fancyBox main JS and CSS files -->
+     <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+     <script type="text/javascript">
+          $(document).ready(function() {
 
-				$('.fancybox').fancybox();
-				// Change title type, overlay closing speed
-				$(".fancybox-effects-a").fancybox({
-					helpers: {
-						title : {
-							type : 'outside'
-						},
-						overlay : {
-							speedOut : 0
-						}
-					}
-				});
-			});
-		</script>
+               $('.fancybox').fancybox();
+               // Change title type, overlay closing speed
+               $(".fancybox-effects-a").fancybox({
+                    helpers: {
+                         title : {
+                              type : 'outside'
+                         },
+                         overlay : {
+                              speedOut : 0
+                         }
+                    }
+               });
+          });
+     </script>
 
-	</head>
-	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<div class="pages">
-			<!-- Push Wrapper -->
-		<div class="mp-pusher" id="mp-pusher">
-		<!-- mp-menu -->
-	
-			<nav id="mp-menu" class="mp-menu">
-				<div class="mp-level">
-					<h2 class="icon icon-world">Men&uacute;</h2>
-					<ul>
-						<li class="icon icon-arrow-left">
-							<a class="icon icon-display" href="#">Con&oacute;cenos</a>
-							<div class="mp-level">
-								<h2 class="icon icon-display">Con&oacute;cenos</h2>
-								<ul>
-									<li class="icon icon-arrow-left">
-										<a class="icon icon-phone" href="conocenos_historia.html">Historia</a>
-										<a class="icon icon-phone" href="conocenos_filosofia.html">Filosof&iacute;a</a>
-										<a class="icon icon-phone" href="conocenos_calidad.html">Calidad</a>
-										<a class="icon icon-phone" href="conocenos_sostenibilidad.html">Sostenibilidad</a>
-										<a class="icon icon-phone" href="conocenos_noticias.html">Noticias</a>
-									</li>
-									
-								</ul>
-							</div>
-						</li>
-						<li class="icon icon-arrow-left">
-							<a class="icon icon-news" href="#">Disfr&uacute;nos</a>
-							<div class="mp-level">
-								<h2 class="icon icon-news">Disfr&uacute;nos</h2>
-								<ul>
-									<li><a href="lista_categorias.html">men&uacute;</a></li>
-									<li><a href="nuevos_productos.html">nuevos productos</a></li>
-								</ul>
-							</div>
-						</li>
-						<li class="icon icon-arrow-left">
-							<a class="icon icon-shop" href="#">Promociones</a>
-							<div class="mp-level">
-								<h2 class="icon icon-shop">Promociones</h2>
-								<ul>
-									<li><a href="promos_clientefiel.html">CLIENTE FIEL</a></li>
-									<li><a href="promos_combos.html">COMBOS Y PROMOS</a></li>
-									<li><a href="promo_actividades.html">actividades</a></li>
-								</ul>
-							</div>
-						</li>
-						<li><a href="encuentranos.html">Encu&eacute;ntranos</a></li>
-						<li class="icon icon-arrow-left">
-							<a class="icon icon-shop" href="#">Fiestas</a>
-							<div class="mp-level">
-								<h2 class="icon icon-shop">Fiestas</h2>
-								<ul>
-									<li><a href="fiestas_infantiles.html">Infantiles</a></li>
-							<li><a href="fiestas_otras.html">Otras</a></li>
-								</ul>
-							</div>
-						</li>
-						<li class="icon icon-arrow-left">
-							<a class="icon icon-shop" href="#">Institucional</a>
-							<div class="mp-level">
-								<h2 class="icon icon-shop">Institucional</h2>
-								<ul>
-									<li><a href="insti_ventajas.html">ventajas</a></li>
-									<li><a href="insti_bonos.html">bonos</a></li>
-									<li><a href="insti_eventos.html">eventos</a></li>
-								</ul>
-							</div>
-						</li>
-						<li><a href="contactanos.html">Cont&aacute;ctanos</a></li>
-						<li><a href="trabaje_nosotros.html">Trabaja con nosotros</a></li>
-						<li><a href="ley_proteccion_datos.html">Ley protecci&oacute;n datos</a></li>
-						<li><a href="normas_comunidad.html">Normas de la comunidad</a></li>
-						<li><a href="informacion_legal.html">informaci&oacute;n legal</a></li>
-					</ul>
-				</div>
-			</nav>
-			<!-- /mp-menu -->
-		<div class="scroller"><!-- this is for emulating position fixed of the nav -->
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="pages">
+     <!-- Push Wrapper -->
+<div class="mp-pusher" id="mp-pusher">
+<!-- mp-menu -->
+     <nav id="mp-menu" class="mp-menu">
+          <div class="mp-level">
+               <h2 class="icon icon-world">Men&uacute;</h2>
+               <ul>
+                    <li class="icon icon-arrow-left">
+                         <a class="icon icon-display" href="#">Con&oacute;cenos</a>
+                         <div class="mp-level">
+                              <h2 class="icon icon-display">Con&oacute;cenos</h2>
+                              <ul>
+                                   <li class="icon icon-arrow-left">
+                                        <a class="icon icon-phone" href="conocenos_historia.html">Historia</a>
+                                        <a class="icon icon-phone" href="conocenos_filosofia.html">Filosof&iacute;a</a>
+                                        <a class="icon icon-phone" href="conocenos_calidad.html">Calidad</a>
+                                        <a class="icon icon-phone" href="conocenos_sostenibilidad.html">Sostenibilidad</a>
+                                        <a class="icon icon-phone" href="conocenos_noticias.html">Noticias</a>
+                                   </li>
+                                   
+                              </ul>
+                         </div>
+                    </li>
+                    <li class="icon icon-arrow-left">
+                         <a class="icon icon-news" href="#">Disfr&uacute;nos</a>
+                         <div class="mp-level">
+                              <h2 class="icon icon-news">Disfr&uacute;nos</h2>
+                              <ul>
+                                   <li><a href="lista_categorias.html">men&uacute;</a></li>
+                                   <li><a href="nuevos_productos.html">nuevos productos</a></li>
+                              </ul>
+                         </div>
+                    </li>
+                    <li class="icon icon-arrow-left">
+                         <a class="icon icon-shop" href="#">Promociones</a>
+                         <div class="mp-level">
+                              <h2 class="icon icon-shop">Promociones</h2>
+                              <ul>
+                                   <li><a href="promos_clientefiel.html">CLIENTE FIEL</a></li>
+                                   <li><a href="promos_combos.html">COMBOS Y PROMOS</a></li>
+                                   <li><a href="promo_actividades.html">actividades</a></li>
+                              </ul>
+                         </div>
+                    </li>
+                    <li><a href="encuentranos.html">Encu&eacute;ntranos</a></li>
+                    <li class="icon icon-arrow-left">
+                         <a class="icon icon-shop" href="#">Fiestas</a>
+                         <div class="mp-level">
+                              <h2 class="icon icon-shop">Fiestas</h2>
+                              <ul>
+                                   <li><a href="fiestas_infantiles.html">Infantiles</a></li>
+                         <li><a href="fiestas_otras.html">Otras</a></li>
+                              </ul>
+                         </div>
+                    </li>
+                    <li class="icon icon-arrow-left">
+                         <a class="icon icon-shop" href="#">Institucional</a>
+                         <div class="mp-level">
+                              <h2 class="icon icon-shop">Institucional</h2>
+                              <ul>
+                                   <li><a href="insti_ventajas.html">ventajas</a></li>
+                                   <li><a href="insti_bonos.html">bonos</a></li>
+                                   <li><a href="insti_eventos.html">eventos</a></li>
+                              </ul>
+                         </div>
+                    </li>
+                    <li><a href="contactanos.html">Cont&aacute;ctanos</a></li>
+                    <li><a href="trabaje_nosotros.html">Trabaja con nosotros</a></li>
+                    <li><a href="ley_proteccion_datos.html">Ley protecci&oacute;n datos</a></li>
+                    <li><a href="normas_comunidad.html">Normas de la comunidad</a></li>
+                    <li><a href="informacion_legal.html">informaci&oacute;n legal</a></li>
+               </ul>
+          </div>
+     </nav>
+     <!-- /mp-menu -->
+     <div class="scroller"><!-- this is for emulating position fixed of the nav -->
 			<div class="scroller-inner">
 				<!-- Top Navigation -->
 				<section class="topage">

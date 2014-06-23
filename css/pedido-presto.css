@@ -69,6 +69,9 @@
 	text-transform: uppercase;
 	width: 112px;
 }
+.cols label strong{
+	color:#ff0000;
+}
 .note{
 	font-size: 12px;
 	font-weight: normal;
@@ -106,8 +109,10 @@
 	text-align: center;
 }
 .screen input[type="text"], .screen input[type="password"]{
+
 	padding: 4px 5px;
 	margin: 5;
+	width: 80%;
 }
 .screen a.link{
 	color:#ff0000;
@@ -155,6 +160,9 @@
 	text-decoration: none;
 	width: 112px;
 }
+#login a:nth-last-child(1){
+	text-decoration: underline;
+}
 .login input[type="submit"]:hover{
 	background: #666;
 }
@@ -167,7 +175,7 @@
 }
 /*donde quiere el pedido*/
 #address h5{
-	color: #57453e;
+	color:#2c210b;
 	font-size: 32px;
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -266,7 +274,7 @@ h3.subtitle strong{
 	font-family: bebas-neue, sans-serif;
 }
 .categories li a{
-	color: #57453e;
+	color:#2c210b;
 	display: block;
 	font-size: 32px;
 	text-decoration: none;
@@ -290,6 +298,7 @@ h3.subtitle strong{
 }
 .selec_producto{
 	padding-top: 60px;
+	padding-bottom: 60px;
 	/*position: relative;*/
 }
 
@@ -362,6 +371,7 @@ h3.subtitle strong{
 .cartSummary{
 	background: #fff;
 	border: 1px solid #2c1b03;
+	margin-bottom:60px;
 }
 .cartSummary article{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -393,6 +403,7 @@ h3.subtitle strong{
 	vertical-align: top;
 }
 .prod_select{
+	color:#2c210b;
 	font-size: 14px;
 	margin: 0 5px 0 5px;
 	width: 50%;
@@ -408,13 +419,14 @@ h3.subtitle strong{
 	width:40px;
 }
 .ingredientes_select{
-	color: #57453e;
+	color:#2c210b;
 	font-size: 12px;
 	margin-left: 50px;
-	width: 40%;
+	width: 50%;
 }
 .cartSummary .valor{
 	font-size: 12px;
+	text-align: right;
 	width: 18%;
 }
 .cartSummary aside .botones{
@@ -460,7 +472,7 @@ h3.subtitle strong{
 	width: 75px;
 }
 .textcafebold{
-	color: #57453e;
+	color:#2c210b;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
@@ -489,7 +501,7 @@ section[role="registro"] article.datos_usuario a, section[role="registro"]  arti
 	overflow: hidden;
 }
 .direccion legend a{
-	color: #57453e;
+	color:#2c210b;
 }
 .direccion legend a:hover{
 	color: #ff0000;
@@ -637,12 +649,13 @@ section[role="registro"] article.nombreusuario strong{
 
 /*producto seleccionado*/
 aside.produc_selec {
+	color:#2c210b;
 	font-family: 'Roboto light', sans-serif;
 	font-size: 20px;
 	margin-bottom:  110px;
 }
 .produc_selec h4{
-	color: #57453e;
+	color:#2c210b;
 	font-family: 'Roboto light', sans-serif;
 	font-size: 35px;
 	font-weight: normal;
@@ -751,7 +764,7 @@ aside.produc_selec {
 	overflow: hidden;
 }
 .agregar_prod article header h2{
-	color: #57453e;
+	color:#2c210b;
 	font-family: bebas-neue, sans-serif;
 	font-size: 38px;
 	font-weight: normal;
@@ -782,6 +795,7 @@ div.pedidopara input{
 	margin-bottom: 30px;
 }
 .detalle_carrito article{
+	color:#2c210b;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 10px;
 	padding: 10px
@@ -824,7 +838,7 @@ div.pedidopara input{
 	width:40px;
 }
 .detalle_carrito .ingredientes_select{
-	color: #57453e;
+	color:#2c210b;
 	font-size: 16px;
 	margin-left: 5px;
 	width: 50%;
@@ -848,7 +862,7 @@ div.pedidopara input{
 .tt_pagar{
 	color: #ff0000;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	margin-top: 25px;
 	padding: 5px 10px;
 	text-align: right;
@@ -883,13 +897,14 @@ div.pedidopara input{
 .pago fieldset div{
 	display:inline-block;
 }
+
 .pago fieldset div:nth-last-of-type(2), .pago fieldset div:nth-last-of-type(1){
 	/*float:right;*/
 	/*display: block;*/
 	margin-right:15px;
 }
 .pago fieldset label{
-	color: #57453e;
+	color:#2c210b;
 	display: inline-block;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
@@ -908,7 +923,7 @@ div.pedidopara input{
 }
 /*gracias por pedido*/
 .gracias_pedido{
-	color: #57453e;
+	color:#2c210b;
 	display: inline-block;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
@@ -929,7 +944,7 @@ div.pedidopara input{
 	font-size: 21px;
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 280px) and (max-width: 799px)  {
+@media only screen and (min-width: 240px) and (max-width: 800px)  {
 /* Styles */
 	.cols{
 		display: block;
@@ -1100,7 +1115,7 @@ div.pedidopara input{
 	}
 }
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 800px) and (max-width: 1024px)  {
+@media only screen and (min-width: 801px) and (max-width: 1023px)  {
 /* Styles */
 	section[role="registro"]{
 		width: 95%;
@@ -1207,7 +1222,7 @@ div.pedidopara input{
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
 /* Styles */
 	section[role="registro"]{
 		width: 90%;
@@ -1264,6 +1279,7 @@ div.pedidopara input{
 		width: 90%;
 	}
 	aside.produc_selec {
+		color:#2c210b;
 		margin-bottom:  110px;
 	}
 	.cols{
@@ -1301,7 +1317,7 @@ div.pedidopara input{
 		width: 70%;
 	}
 }
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1280px) {
 	section[role="registro"]{
 		width: 90%;
 		margin: 0 auto;
@@ -1369,7 +1385,7 @@ div.pedidopara input{
 		width: 80%;
 	}
 	.producto{
-		width:58%;
+		width:52%;
 	}
 	.cart_detail{
 		right: 20px;
